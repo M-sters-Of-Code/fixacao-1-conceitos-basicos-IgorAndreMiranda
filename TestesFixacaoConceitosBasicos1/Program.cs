@@ -10,12 +10,11 @@
  */
 
 //PRIMEIRA  TABELA REALIZADA
-using FixacaoConceitosBasicos1.Model;
 
 int resultadoSoma = SomaDoisNumeros.Somar(5, 10);
 Console.WriteLine($"Soma: {resultadoSoma}");
 
-double milimetros = MetroMilimetros.Converter(2.5);
+double milimetros = MetrosMilimetros.Converter(2.5);
 Console.WriteLine($"Milímetros: {milimetros}");
 
 double novoSalario = CalculaAumento.Calcular(2000, 500);
